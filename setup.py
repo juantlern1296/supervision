@@ -50,6 +50,8 @@ setup(
             "pandas>=1.4.0",
             # scipy is handy for some stats work when evaluating model performance
             "scipy>=1.7.0",
+            # tqdm for progress bars when processing large batches of images
+            "tqdm>=4.64.0",
         ],
     },
 )
