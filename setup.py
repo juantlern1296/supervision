@@ -40,6 +40,8 @@ setup(
             "ipykernel>=6.0.0",
             # adding notebook for running .ipynb files directly
             "notebook>=6.0.0",
+            # matplotlib is super handy for quick visualizations while experimenting
+            "matplotlib>=3.5.0",
         ],
     },
 )
