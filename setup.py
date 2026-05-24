@@ -58,6 +58,8 @@ setup(
             "ipywidgets>=8.0.0",
             # Pillow is useful for quick image loading/saving in experiments
             "Pillow>=9.0.0",
+            # httpx is handy for testing any API integrations locally
+            "httpx>=0.23.0",
         ],
     },
 )
