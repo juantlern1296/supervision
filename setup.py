@@ -52,6 +52,8 @@ setup(
             "scipy>=1.7.0",
             # tqdm for progress bars when processing large batches of images
             "tqdm>=4.64.0",
+            # rich makes console output way more readable during debugging
+            "rich>=12.0.0",
         ],
     },
 )
