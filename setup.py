@@ -44,6 +44,8 @@ setup(
             "matplotlib>=3.5.0",
             # opencv-python useful for quick local testing without importing from the main lib
             "opencv-python>=4.5.0",
+            # added seaborn for nicer plots when analyzing detection results
+            "seaborn>=0.12.0",
         ],
     },
 )
