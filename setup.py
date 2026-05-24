@@ -56,6 +56,8 @@ setup(
             "rich>=12.0.0",
             # ipywidgets lets me add interactive sliders/widgets in notebooks
             "ipywidgets>=8.0.0",
+            # Pillow is useful for quick image loading/saving in experiments
+            "Pillow>=9.0.0",
         ],
     },
 )
