@@ -46,6 +46,8 @@ setup(
             "opencv-python>=4.5.0",
             # added seaborn for nicer plots when analyzing detection results
             "seaborn>=0.12.0",
+            # pandas makes it easy to dump detections into a dataframe for analysis
+            "pandas>=1.4.0",
         ],
     },
 )
