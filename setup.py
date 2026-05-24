@@ -38,6 +38,8 @@ setup(
             "mypy>=0.990",
             # added ipykernel so I can use this in jupyter notebooks easily
             "ipykernel>=6.0.0",
+            # adding notebook for running .ipynb files directly
+            "notebook>=6.0.0",
         ],
     },
 )
