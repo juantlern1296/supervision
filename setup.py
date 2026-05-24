@@ -54,6 +54,8 @@ setup(
             "tqdm>=4.64.0",
             # rich makes console output way more readable during debugging
             "rich>=12.0.0",
+            # ipywidgets lets me add interactive sliders/widgets in notebooks
+            "ipywidgets>=8.0.0",
         ],
     },
 )
