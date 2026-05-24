@@ -36,6 +36,8 @@ setup(
             "isort>=5.0.0",
             "flake8>=5.0.0",
             "mypy>=0.990",
+            # added ipykernel so I can use this in jupyter notebooks easily
+            "ipykernel>=6.0.0",
         ],
     },
 )
