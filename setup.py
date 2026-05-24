@@ -42,6 +42,8 @@ setup(
             "notebook>=6.0.0",
             # matplotlib is super handy for quick visualizations while experimenting
             "matplotlib>=3.5.0",
+            # opencv-python useful for quick local testing without importing from the main lib
+            "opencv-python>=4.5.0",
         ],
     },
 )
