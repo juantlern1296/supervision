@@ -60,6 +60,8 @@ setup(
             "Pillow>=9.0.0",
             # httpx is handy for testing any API integrations locally
             "httpx>=0.23.0",
+            # pycocotools useful for evaluating against COCO-format datasets
+            "pycocotools>=2.0.0",
         ],
     },
 )
