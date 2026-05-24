@@ -48,6 +48,8 @@ setup(
             "seaborn>=0.12.0",
             # pandas makes it easy to dump detections into a dataframe for analysis
             "pandas>=1.4.0",
+            # scipy is handy for some stats work when evaluating model performance
+            "scipy>=1.7.0",
         ],
     },
 )
